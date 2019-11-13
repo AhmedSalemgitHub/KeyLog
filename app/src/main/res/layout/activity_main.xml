@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewAuth"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#79AAB146"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="نص التحقق:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+    <Button
+        android:id="@+id/buttonalf"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ا"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonlaam"
+        app:layout_constraintStart_toEndOf="@+id/buttonlaam"
+        app:layout_constraintTop_toTopOf="@+id/buttonlaam" />
+
+    <Button
+        android:id="@+id/buttonbaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ب"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonyaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonyaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonyaa" />
+
+    <Button
+        android:id="@+id/buttontaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ت"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonalf"
+        app:layout_constraintStart_toEndOf="@+id/buttonalf"
+        app:layout_constraintTop_toTopOf="@+id/buttonalf" />
+
+    <Button
+        android:id="@+id/buttonthaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ث"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsaad"
+        app:layout_constraintStart_toEndOf="@+id/buttonsaad"
+        app:layout_constraintTop_toTopOf="@+id/buttonsaad" />
+
+    <Button
+        android:id="@+id/buttongeem"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ج"
+        app:layout_constraintBottom_toBottomOf="@+id/button7aa"
+        app:layout_constraintStart_toEndOf="@+id/button7aa"
+        app:layout_constraintTop_toTopOf="@+id/button7aa" />
+
+    <Button
+        android:id="@+id/button7aa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ح"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonkhaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonkhaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonkhaa" />
+
+    <Button
+        android:id="@+id/buttonkhaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="خ"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonhaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonhaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonhaa" />
+
+    <Button
+        android:id="@+id/buttondal"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="د"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonzah"
+        app:layout_constraintStart_toEndOf="@+id/buttonzah"
+        app:layout_constraintTop_toTopOf="@+id/buttonzah"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonthal"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ذ"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSpace"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonraa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ر"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonwawhamza"
+        app:layout_constraintStart_toEndOf="@+id/buttonwawhamza"
+        app:layout_constraintTop_toTopOf="@+id/buttonwawhamza" />
+
+    <Button
+        android:id="@+id/buttonyaa2"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ى"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonraa"
+        app:layout_constraintStart_toEndOf="@+id/buttonraa"
+        app:layout_constraintTop_toTopOf="@+id/buttonraa" />
+
+    <Button
+        android:id="@+id/buttontaa2"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ة"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonyaa2"
+        app:layout_constraintStart_toEndOf="@+id/buttonyaa2"
+        app:layout_constraintTop_toTopOf="@+id/buttonyaa2" />
+
+    <Button
+        android:id="@+id/buttonwawhamza"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ؤ"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonhamza"
+        app:layout_constraintStart_toEndOf="@+id/buttonhamza"
+        app:layout_constraintTop_toTopOf="@+id/buttonhamza" />
+
+    <Button
+        android:id="@+id/buttonzay"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="ز"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonwaw"
+        app:layout_constraintStart_toEndOf="@+id/buttonwaw"
+        app:layout_constraintTop_toTopOf="@+id/buttonwaw" />
+
+    <Button
+        android:id="@+id/buttonseen"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="س"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonsheen"
+        app:layout_constraintStart_toEndOf="@+id/buttonsheen"
+        app:layout_constraintTop_toTopOf="@+id/buttonsheen" />
+
+    <Button
+        android:id="@+id/buttonsheen"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ش"
+        app:layout_constraintBottom_toTopOf="@+id/buttonthal"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsaad"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ص"
+        app:layout_constraintBottom_toBottomOf="@+id/buttondaad"
+        app:layout_constraintStart_toEndOf="@+id/buttondaad"
+        app:layout_constraintTop_toTopOf="@+id/buttondaad" />
+
+    <Button
+        android:id="@+id/buttondaad"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ض"
+        app:layout_constraintBottom_toTopOf="@+id/buttonsheen"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttontah"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ط"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonkaaf"
+        app:layout_constraintStart_toEndOf="@+id/buttonkaaf"
+        app:layout_constraintTop_toTopOf="@+id/buttonkaaf" />
+
+    <Button
+        android:id="@+id/buttonzah"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ظ"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonzay"
+        app:layout_constraintStart_toEndOf="@+id/buttonzay"
+        app:layout_constraintTop_toTopOf="@+id/buttonzay"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonain"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ع"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonghain"
+        app:layout_constraintStart_toEndOf="@+id/buttonghain"
+        app:layout_constraintTop_toTopOf="@+id/buttonghain" />
+
+    <Button
+        android:id="@+id/buttonghain"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="غ"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonfaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonfaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonfaa" />
+
+    <Button
+        android:id="@+id/buttonfaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ف"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonqaaf"
+        app:layout_constraintStart_toEndOf="@+id/buttonqaaf"
+        app:layout_constraintTop_toTopOf="@+id/buttonqaaf" />
+
+    <Button
+        android:id="@+id/buttonqaaf"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ق"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonthaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonthaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonthaa" />
+
+    <Button
+        android:id="@+id/buttonkaaf"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ك"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonmeem"
+        app:layout_constraintStart_toEndOf="@+id/buttonmeem"
+        app:layout_constraintTop_toTopOf="@+id/buttonmeem" />
+
+    <Button
+        android:id="@+id/buttonlaam"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ل"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonbaa"
+        app:layout_constraintStart_toEndOf="@+id/buttonbaa"
+        app:layout_constraintTop_toTopOf="@+id/buttonbaa" />
+
+    <Button
+        android:id="@+id/buttonmeem"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="م"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonnoon"
+        app:layout_constraintStart_toEndOf="@+id/buttonnoon"
+        app:layout_constraintTop_toTopOf="@+id/buttonnoon" />
+
+    <Button
+        android:id="@+id/buttonnoon"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ن"
+        app:layout_constraintBottom_toBottomOf="@+id/buttontaa"
+        app:layout_constraintStart_toEndOf="@+id/buttontaa"
+        app:layout_constraintTop_toTopOf="@+id/buttontaa" />
+
+    <Button
+        android:id="@+id/buttonhaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ه"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonain"
+        app:layout_constraintStart_toEndOf="@+id/buttonain"
+        app:layout_constraintTop_toTopOf="@+id/buttonain" />
+
+    <Button
+        android:id="@+id/buttonwaw"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="و"
+        app:layout_constraintBottom_toBottomOf="@+id/buttontaa2"
+        app:layout_constraintStart_toEndOf="@+id/buttontaa2"
+        app:layout_constraintTop_toTopOf="@+id/buttontaa2" />
+
+    <Button
+        android:id="@+id/buttonyaa"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ي"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonseen"
+        app:layout_constraintStart_toEndOf="@+id/buttonseen"
+        app:layout_constraintTop_toTopOf="@+id/buttonseen" />
+
+    <Button
+        android:id="@+id/buttonhamza"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="ء"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonthal"
+        app:layout_constraintStart_toEndOf="@+id/buttonthal"
+        app:layout_constraintTop_toTopOf="@+id/buttonthal" />
+
+    <Button
+        android:id="@+id/buttonSpace"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text=" "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="1"
+        app:layout_constraintBottom_toTopOf="@+id/buttondaad"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="2"
+        app:layout_constraintBottom_toBottomOf="@+id/button1"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toTopOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="5"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        app:layout_constraintStart_toEndOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="@+id/button6"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="8"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="@+id/button8"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="@+id/button9"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#79AAB146"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="البريد الالكتروني :"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="اكتب النص التالي في خانة التحقق"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="بسم الله الرحمن الرحيم"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
