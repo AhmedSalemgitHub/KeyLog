@@ -2,11 +2,15 @@ package com.keylog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnTouchListener {
 
@@ -14,12 +18,13 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     btnalf, btnbaa, btntaa, btnthaa, btngeem, btn7aa, btnkhaa, btndal, btnthal, btnraa,
     btnseen, btnsheen, btnsaad, btndaad, btntah, btnzah,btnzay, btnain, btnghain, btnfaa,
     btnqaaf, btnkaaf, btnlaam, btnmeem, btnnoon, btnhaa, btnwaw, btnyaa, btnSpace, btnWawHamza,
-    btnyaa2, btnhamzaa, btntaa2 ;
+    btnyaa2, btnhamzaa, btntaa2 ,action;
 
     public TextView textViewEmail;
     public TextView textViewAuth;
 
-    String chosenText = "textViewEmail";
+    String btnText = "";
+    String email = "";
 
     long press;
     long release;
@@ -28,26 +33,29 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        String languageToLoad  = "ar"; // your language
+        Locale locale = new Locale(languageToLoad);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config,
+                getBaseContext().getResources().getDisplayMetrics());
+
         setContentView(R.layout.activity_main);
+
+
+        btnText = getIntent().getStringExtra("key");
+        email = getIntent().getStringExtra("email");
+
 
         textViewEmail = findViewById(R.id.textViewEmail);
         textViewAuth = findViewById(R.id.textViewAuth);
 
-        textViewEmail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                chosenText = "textViewEmail";
-            }
-        });
+        action = findViewById(R.id.action);
+        action.setText(btnText);
 
-        textViewAuth.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                chosenText = "textViewAuth";
-            }
-        });
-
-
+        textViewEmail.setText(email);
 
 
         btn1 =  findViewById(R.id.button1);
@@ -145,13 +153,9 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         if (event.getAction() == MotionEvent.ACTION_DOWN){
             Button b = (Button) v;
             String display = b.getText().toString();
-            if (chosenText.equals("textViewEmail") ){
-                textViewEmail.append(display);
-                press = System.currentTimeMillis();
-            }else{
+
                 textViewAuth.append(display);
                 press = System.currentTimeMillis();
-            }
 
 
             System.out.println("The keypress time is " + press);
@@ -163,4 +167,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         }
         return false;
     }
+
+
+
 }

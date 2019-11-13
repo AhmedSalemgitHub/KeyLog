@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="#79AAB146"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,19 +22,20 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="0dp"
+        android:layout_width="61dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="نص التحقق:"
+        android:text="@string/validationText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
 
     <Button
         android:id="@+id/buttonalf"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ا"
+        android:text="@string/min6"
         app:layout_constraintBottom_toBottomOf="@+id/buttonlaam"
         app:layout_constraintStart_toEndOf="@+id/buttonlaam"
         app:layout_constraintTop_toTopOf="@+id/buttonlaam" />
@@ -43,7 +44,7 @@
         android:id="@+id/buttonbaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ب"
+        android:text="@string/mid4"
         app:layout_constraintBottom_toBottomOf="@+id/buttonyaa"
         app:layout_constraintStart_toEndOf="@+id/buttonyaa"
         app:layout_constraintTop_toTopOf="@+id/buttonyaa" />
@@ -52,7 +53,7 @@
         android:id="@+id/buttontaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ت"
+        android:text="@string/mid7"
         app:layout_constraintBottom_toBottomOf="@+id/buttonalf"
         app:layout_constraintStart_toEndOf="@+id/buttonalf"
         app:layout_constraintTop_toTopOf="@+id/buttonalf" />
@@ -61,7 +62,7 @@
         android:id="@+id/buttonthaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ث"
+        android:text="@string/top3"
         app:layout_constraintBottom_toBottomOf="@+id/buttonsaad"
         app:layout_constraintStart_toEndOf="@+id/buttonsaad"
         app:layout_constraintTop_toTopOf="@+id/buttonsaad" />
@@ -70,7 +71,7 @@
         android:id="@+id/buttongeem"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ج"
+        android:text="@string/top11"
         app:layout_constraintBottom_toBottomOf="@+id/button7aa"
         app:layout_constraintStart_toEndOf="@+id/button7aa"
         app:layout_constraintTop_toTopOf="@+id/button7aa" />
@@ -79,7 +80,7 @@
         android:id="@+id/button7aa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ح"
+        android:text="@string/top10"
         app:layout_constraintBottom_toBottomOf="@+id/buttonkhaa"
         app:layout_constraintStart_toEndOf="@+id/buttonkhaa"
         app:layout_constraintTop_toTopOf="@+id/buttonkhaa" />
@@ -88,7 +89,7 @@
         android:id="@+id/buttonkhaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="خ"
+        android:text="@string/top9"
         app:layout_constraintBottom_toBottomOf="@+id/buttonhaa"
         app:layout_constraintStart_toEndOf="@+id/buttonhaa"
         app:layout_constraintTop_toTopOf="@+id/buttonhaa" />
@@ -97,7 +98,7 @@
         android:id="@+id/buttondal"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="د"
+        android:text="@string/bot10"
         app:layout_constraintBottom_toBottomOf="@+id/buttonzah"
         app:layout_constraintStart_toEndOf="@+id/buttonzah"
         app:layout_constraintTop_toTopOf="@+id/buttonzah"
@@ -107,7 +108,7 @@
         android:id="@+id/buttonthal"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ذ"
+        android:text="@string/bot1"
         app:layout_constraintBottom_toTopOf="@+id/buttonSpace"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -115,7 +116,7 @@
         android:id="@+id/buttonraa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ر"
+        android:text="@string/bot4"
         app:layout_constraintBottom_toBottomOf="@+id/buttonwawhamza"
         app:layout_constraintStart_toEndOf="@+id/buttonwawhamza"
         app:layout_constraintTop_toTopOf="@+id/buttonwawhamza" />
@@ -124,7 +125,7 @@
         android:id="@+id/buttonyaa2"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ى"
+        android:text="@string/bot5"
         app:layout_constraintBottom_toBottomOf="@+id/buttonraa"
         app:layout_constraintStart_toEndOf="@+id/buttonraa"
         app:layout_constraintTop_toTopOf="@+id/buttonraa" />
@@ -133,7 +134,7 @@
         android:id="@+id/buttontaa2"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ة"
+        android:text="@string/bot6"
         app:layout_constraintBottom_toBottomOf="@+id/buttonyaa2"
         app:layout_constraintStart_toEndOf="@+id/buttonyaa2"
         app:layout_constraintTop_toTopOf="@+id/buttonyaa2" />
@@ -142,7 +143,7 @@
         android:id="@+id/buttonwawhamza"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ؤ"
+        android:text="@string/bot3"
         app:layout_constraintBottom_toBottomOf="@+id/buttonhamza"
         app:layout_constraintStart_toEndOf="@+id/buttonhamza"
         app:layout_constraintTop_toTopOf="@+id/buttonhamza" />
@@ -152,7 +153,7 @@
         android:layout_width="37dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:text="ز"
+        android:text="@string/bot8"
         app:layout_constraintBottom_toBottomOf="@+id/buttonwaw"
         app:layout_constraintStart_toEndOf="@+id/buttonwaw"
         app:layout_constraintTop_toTopOf="@+id/buttonwaw" />
@@ -161,7 +162,7 @@
         android:id="@+id/buttonseen"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="س"
+        android:text="@string/mid2"
         app:layout_constraintBottom_toBottomOf="@+id/buttonsheen"
         app:layout_constraintStart_toEndOf="@+id/buttonsheen"
         app:layout_constraintTop_toTopOf="@+id/buttonsheen" />
@@ -170,7 +171,7 @@
         android:id="@+id/buttonsheen"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ش"
+        android:text="@string/mid1"
         app:layout_constraintBottom_toTopOf="@+id/buttonthal"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -178,7 +179,7 @@
         android:id="@+id/buttonsaad"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ص"
+        android:text="@string/top2"
         app:layout_constraintBottom_toBottomOf="@+id/buttondaad"
         app:layout_constraintStart_toEndOf="@+id/buttondaad"
         app:layout_constraintTop_toTopOf="@+id/buttondaad" />
@@ -187,7 +188,7 @@
         android:id="@+id/buttondaad"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ض"
+        android:text="@string/top1"
         app:layout_constraintBottom_toTopOf="@+id/buttonsheen"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -195,7 +196,7 @@
         android:id="@+id/buttontah"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ط"
+        android:text="@string/mid11"
         app:layout_constraintBottom_toBottomOf="@+id/buttonkaaf"
         app:layout_constraintStart_toEndOf="@+id/buttonkaaf"
         app:layout_constraintTop_toTopOf="@+id/buttonkaaf" />
@@ -204,7 +205,7 @@
         android:id="@+id/buttonzah"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ظ"
+        android:text="@string/bot9"
         app:layout_constraintBottom_toBottomOf="@+id/buttonzay"
         app:layout_constraintStart_toEndOf="@+id/buttonzay"
         app:layout_constraintTop_toTopOf="@+id/buttonzay"
@@ -214,7 +215,7 @@
         android:id="@+id/buttonain"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ع"
+        android:text="@string/top7"
         app:layout_constraintBottom_toBottomOf="@+id/buttonghain"
         app:layout_constraintStart_toEndOf="@+id/buttonghain"
         app:layout_constraintTop_toTopOf="@+id/buttonghain" />
@@ -223,7 +224,7 @@
         android:id="@+id/buttonghain"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="غ"
+        android:text="@string/top6"
         app:layout_constraintBottom_toBottomOf="@+id/buttonfaa"
         app:layout_constraintStart_toEndOf="@+id/buttonfaa"
         app:layout_constraintTop_toTopOf="@+id/buttonfaa" />
@@ -232,7 +233,7 @@
         android:id="@+id/buttonfaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ف"
+        android:text="@string/top5"
         app:layout_constraintBottom_toBottomOf="@+id/buttonqaaf"
         app:layout_constraintStart_toEndOf="@+id/buttonqaaf"
         app:layout_constraintTop_toTopOf="@+id/buttonqaaf" />
@@ -241,7 +242,7 @@
         android:id="@+id/buttonqaaf"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ق"
+        android:text="@string/top4"
         app:layout_constraintBottom_toBottomOf="@+id/buttonthaa"
         app:layout_constraintStart_toEndOf="@+id/buttonthaa"
         app:layout_constraintTop_toTopOf="@+id/buttonthaa" />
@@ -250,7 +251,7 @@
         android:id="@+id/buttonkaaf"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ك"
+        android:text="@string/mid10"
         app:layout_constraintBottom_toBottomOf="@+id/buttonmeem"
         app:layout_constraintStart_toEndOf="@+id/buttonmeem"
         app:layout_constraintTop_toTopOf="@+id/buttonmeem" />
@@ -259,7 +260,7 @@
         android:id="@+id/buttonlaam"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ل"
+        android:text="@string/mid5"
         app:layout_constraintBottom_toBottomOf="@+id/buttonbaa"
         app:layout_constraintStart_toEndOf="@+id/buttonbaa"
         app:layout_constraintTop_toTopOf="@+id/buttonbaa" />
@@ -268,7 +269,7 @@
         android:id="@+id/buttonmeem"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="م"
+        android:text="@string/mid9"
         app:layout_constraintBottom_toBottomOf="@+id/buttonnoon"
         app:layout_constraintStart_toEndOf="@+id/buttonnoon"
         app:layout_constraintTop_toTopOf="@+id/buttonnoon" />
@@ -277,7 +278,7 @@
         android:id="@+id/buttonnoon"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ن"
+        android:text="@string/mid8"
         app:layout_constraintBottom_toBottomOf="@+id/buttontaa"
         app:layout_constraintStart_toEndOf="@+id/buttontaa"
         app:layout_constraintTop_toTopOf="@+id/buttontaa" />
@@ -286,7 +287,7 @@
         android:id="@+id/buttonhaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ه"
+        android:text="@string/top8"
         app:layout_constraintBottom_toBottomOf="@+id/buttonain"
         app:layout_constraintStart_toEndOf="@+id/buttonain"
         app:layout_constraintTop_toTopOf="@+id/buttonain" />
@@ -295,7 +296,7 @@
         android:id="@+id/buttonwaw"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="و"
+        android:text="@string/bot7"
         app:layout_constraintBottom_toBottomOf="@+id/buttontaa2"
         app:layout_constraintStart_toEndOf="@+id/buttontaa2"
         app:layout_constraintTop_toTopOf="@+id/buttontaa2" />
@@ -304,7 +305,7 @@
         android:id="@+id/buttonyaa"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ي"
+        android:text="@string/mid3"
         app:layout_constraintBottom_toBottomOf="@+id/buttonseen"
         app:layout_constraintStart_toEndOf="@+id/buttonseen"
         app:layout_constraintTop_toTopOf="@+id/buttonseen" />
@@ -313,7 +314,7 @@
         android:id="@+id/buttonhamza"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="ء"
+        android:text="@string/bot2"
         app:layout_constraintBottom_toBottomOf="@+id/buttonthal"
         app:layout_constraintStart_toEndOf="@+id/buttonthal"
         app:layout_constraintTop_toTopOf="@+id/buttonthal" />
@@ -322,7 +323,7 @@
         android:id="@+id/buttonSpace"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text=" "
+        android:text="@string/space"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -331,7 +332,7 @@
         android:id="@+id/button1"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="1"
+        android:text="@string/_1"
         app:layout_constraintBottom_toTopOf="@+id/buttondaad"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -339,7 +340,7 @@
         android:id="@+id/button2"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="2"
+        android:text="@string/_2"
         app:layout_constraintBottom_toBottomOf="@+id/button1"
         app:layout_constraintStart_toEndOf="@+id/button1"
         app:layout_constraintTop_toTopOf="@+id/button1" />
@@ -348,7 +349,7 @@
         android:id="@+id/button3"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="3"
+        android:text="@string/_3"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="@+id/button2" />
@@ -357,7 +358,7 @@
         android:id="@+id/button4"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="4"
+        android:text="@string/_4"
         app:layout_constraintBottom_toBottomOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toTopOf="@+id/button3" />
@@ -366,7 +367,7 @@
         android:id="@+id/button5"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="5"
+        android:text="@string/_5"
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toTopOf="@+id/button4" />
@@ -375,7 +376,7 @@
         android:id="@+id/button6"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="6"
+        android:text="@string/_6"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toTopOf="@+id/button5" />
@@ -384,7 +385,7 @@
         android:id="@+id/button7"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="7"
+        android:text="@string/_7"
         app:layout_constraintBottom_toBottomOf="@+id/button6"
         app:layout_constraintStart_toEndOf="@+id/button6"
         app:layout_constraintTop_toTopOf="@+id/button6" />
@@ -393,7 +394,7 @@
         android:id="@+id/button8"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="8"
+        android:text="@string/_8"
         app:layout_constraintBottom_toBottomOf="@+id/button7"
         app:layout_constraintStart_toEndOf="@+id/button7"
         app:layout_constraintTop_toTopOf="@+id/button7" />
@@ -402,7 +403,7 @@
         android:id="@+id/button9"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="9"
+        android:text="@string/_9"
         app:layout_constraintBottom_toBottomOf="@+id/button8"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toTopOf="@+id/button8" />
@@ -411,7 +412,7 @@
         android:id="@+id/button0"
         android:layout_width="37dp"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:text="@string/_0"
         app:layout_constraintBottom_toBottomOf="@+id/button9"
         app:layout_constraintStart_toEndOf="@+id/button9"
         app:layout_constraintTop_toTopOf="@+id/button9" />
@@ -424,7 +425,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:background="#79AAB146"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -432,12 +433,13 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="89dp"
+        android:layout_height="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="8dp"
-        android:text="البريد الالكتروني :"
+        android:text="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
@@ -446,8 +448,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="اكتب النص التالي في خانة التحقق"
+        android:text="@string/ValidationBodyLable"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -455,10 +458,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="بسم الله الرحمن الرحيم"
+        android:text="@string/ValidatinBody"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAuth" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
